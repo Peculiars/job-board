@@ -1,7 +1,7 @@
 const Hero =()=>{
     return(
         <section>
-            hro
+            hero
         </section>
     )
 }

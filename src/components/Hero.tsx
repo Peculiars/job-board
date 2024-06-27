@@ -10,7 +10,7 @@ const Hero =()=>{
                 </div>
                 <form action="" className="flex gap-2 max-w-lg mx-auto my-7">
                     <input type="search" placeholder="Search phrase..." className="border border-gray-400 w-full py-1 px-2 rounded-md outline-none"/>
-                    <button className="bg-blue-600 text-white py-2 px-4 rounded-md">Search</button>
+                    <button className="bg-green-800 text-white py-2 px-4 rounded-md">Search</button>
                 </form>
             </Container>
         </header>

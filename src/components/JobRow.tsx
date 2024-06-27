@@ -3,7 +3,7 @@ import Image from "next/image"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHeart } from '@fortawesome/free-regular-svg-icons'
 
-const JobRow =({imgSrc, companyName, position, duration, jobType, time, location}: JobRowsProps)=>{
+const JobRow =({imgSrc, companyName, position, duration, mode, time, location}: JobRowsProps)=>{
     return(
         <div className="bg-white sm:p-4 md:p-6 rounded-lg shadow-sm flex sm:gap-3 md:gap-4 relative">
             <div className="absolute top-4 right-6">
@@ -16,7 +16,7 @@ const JobRow =({imgSrc, companyName, position, duration, jobType, time, location
                 <div className="grow">
                 <div className="text-gray-500 text-sm">{companyName}</div>
                 <div className="font-bold mb-1">{position}</div>
-                <div className="text-gray-500 text-xs">{jobType} &middot; {location} &middot; {duration}</div>
+                <div className="text-gray-500 text-xs">{mode} &middot; {location} &middot; {duration}</div>
                 </div>
                 <div className="content-end text-gray-500 text-xs font-medium sm:pt-1 md:pt-0">{time}</div>
             </div>

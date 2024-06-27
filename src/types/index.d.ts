@@ -11,7 +11,7 @@ declare interface JobRowsProps{
     companyName: string
     position: string
     location: string
-    jobType: string
+    mode: string
     duration: string
     time: string
 }

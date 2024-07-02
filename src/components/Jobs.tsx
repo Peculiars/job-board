@@ -7,7 +7,7 @@ import netflix from "../../public/assets/netflix.png"
 
 const Jobs=()=>{
     return(
-        <section className="bg-gray-100 p-8 rounded-2xl">     
+        <section className="bg-gray-100 p-8 rounded-tl-[4rem] rounded-br-[4rem]">     
             <Container>
                 <div >
                     <h2 className="font-bold mb-4">Recent jobs</h2>

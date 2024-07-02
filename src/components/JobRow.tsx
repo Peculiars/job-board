@@ -5,9 +5,9 @@ import { faHeart } from '@fortawesome/free-regular-svg-icons'
 
 const JobRow =({imgSrc, companyName, position, duration, mode, time, location}: JobRowsProps)=>{
     return(
-        <div className="bg-white sm:p-4 md:p-6 rounded-lg shadow-sm flex sm:gap-3 md:gap-4 relative">
+        <div className="bg-white sm:p-4 md:p-6 rounded-tl-lg rounded-br-lg shadow-sm flex sm:gap-3 md:gap-4 relative">
             <div className="absolute top-4 right-6">
-                <FontAwesomeIcon className="size-4 text-gray-400 cursor-pointer" icon={faHeart} />
+                <FontAwesomeIcon className="size-4 text-green-800 cursor-pointer" icon={faHeart} />
             </div>
             <div className="content-center">
                 <Image src={imgSrc} alt={`${companyName}logo`} className="size-12"/>
